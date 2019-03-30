@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFloorCallBlockingSetValues"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:text="SetValues"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnFloorCallBlockingViewValues"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:text="View Values"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSetFlooorCallBlockingData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:text="Select Floor Number"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinSeclectFloorNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"></Spinner>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/rdogpFloorCallBlocking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rdoBtnNoCallBlocking"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:text="No Call Blocking"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rdoBtnOnlyCarCallBlock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:text="Only Car Call Block"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rdoBtnHallUpCallBlock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/black"
+                        android:padding="10dp"
+                        android:text="Hall Up Call Block"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rdoBtnCarPlusHalllUpCallBlock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="Car + Hall Up Call Block"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rdoBtnHallDownCallBlock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="Hall Down Call Block"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rdoBtnCarPlusHallDownCallBlock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="Car + Hall Down Calls Block"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rdoBtnCarPlusHallUpPlusHallDownCallBlock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="Car + Hall Up + Hall Down Calls Block"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/rdoBtnHallUpPlusDownCallsBlock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:text="Hall Up + Down Calls Block"
+                        android:textSize="18sp" />
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnSetFloorCallBlocking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_selector"
+                    android:padding="10dp"
+                    android:text="Set Floor Call Blocking"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlFloorCallBlockingViewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="  Floor"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvfloor_blocking_FloorNumber"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:text="  HU          HD          CC"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:id="@+id/tvfloor_blocking_Data"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+        <ScrollView
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnViewFloorCallBlocking">
+
+            <LinearLayout
+                android:id="@+id/llFloorBlockingData"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <Button
+            android:id="@+id/btnViewFloorCallBlocking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_selector"
+            android:padding="10dp"
+            android:text="View Floor Call Blocking"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

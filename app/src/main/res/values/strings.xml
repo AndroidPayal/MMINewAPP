@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">MMINewAPP</string>
+
+    <string name="function">Functions</string>
+
+    <!-- prefence keys, no translation needed -->
+    <string name="pref_commands_mode">pref_commands_mode</string>
+    <string name="pref_commands_ending">pref_commands_ending</string>
+    <string name="pref_log_timing">pref_log_timing</string>
+    <string name="pref_log_direction">pref_log_direction</string>
+    <string name="pref_need_clean">pref_need_clean</string>
+    <!-- prefence keys, no translation needed -->
+
+    <!--  <string name="file_extension_xml">Select device</string>
+      <string name="tag_fragment_FileSave">Select device</string>
+      <string name="alert_ok">Select device</string>
+      <string name="alert_cancel">Select device</string>
+      <string name="alert_file_save_as">Select device</string>
+      <string name="hint_filename_unadorned">Select device</string>
+      <string name="alert_supply_filename">Select device</string>
+      <string name="alert_bad_filename_chars">Select device</string>
+      <string name="alert_file_exists">Select device</string>-->
+
+    <string name="msg_not_connected">not connected</string>
+    <string name="msg_connecting">connecting…</string>
+    <string name="msg_connected">connected</string>
+
+    <string name="action_bluetooth">on/off</string>
+    <string name="no_bt_support">Your device doesn\'t support bluetooth.</string>
+    <string name="empty_device_name">&lt;New device&gt;</string>
+
+    <string name="menu_set_id">Set Id</string>
+    <string name="menu_fpi">FPI</string>
+    <string name="menu_floor_up_call">Call Indication Up</string>
+    <string name="menu_floor_dp_call">Call Indication Down</string>
+    <string name="menu_car_call">Car Call Indication</string>
+    <string name="menu_network_form">Network Form</string>
+    <string name="menu_view_root_table">View Route Table</string>
+    <string name="menu_view_count_table">View Count Table</string>
+    <string name="menu_view_id_table">View Id Table</string>
+    <string name="menu_view_network">View Network</string>
+    <string name="about_us">About</string>
+    <string name="help">Help</string>
+
+
+    <string name="menu_send">Send log…</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_clear">Clear history</string>
+
+    <string name="select_device">Select device</string>
+    <string name="search_message">Search for devices…</string>
+    <string name="title_paired_devices">Paired devices</string>
+    <string name="title_other_devices">Other devices</string>
+    <string name="none_paired">No paired devices</string>
+    <string name="none_found">Not found</string>
+    <string name="command_hint">Enter data</string>
+    <string name="button_view">View</string>
+    <string name="button_save">Send</string>
+    <string name="button_network_form">Form Network</string>
+    <string name="button_confirm_network_form">Confirm Form Network</string>
+    <!-- Настройки -->
+    <string name="log_settings_category">Command history:</string>
+
+    <string name="log_time">Time</string>
+    <string name="log_time_summary">Show time in log</string>
+    <string name="log_direction">Direction</string>
+    <string name="log_direction_summary">Show I/O direction in log</string>
+
+    <string name="commands_mode">Input mode:</string>
+    <string name="commands_mode_summary">Select input mode</string>
+    <string name="commands_ending_summary">Select ending</string>
+
+    <string name="need_clean">Clear previous command</string>
+    <string name="need_clean_summary">Cleanup command view after sending</string>
+    <string name="title_button">Save</string>
+    <string name="title_button1">Load</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Floor Indicator</string>
+    <!--<string name="nav_photos">Profile</string>-->
+    <string name="nav_movies">Set Date Time</string>
+    <string name="nav_write_mode_enable">Write Mode Enable</string>
+    <string name="nav_program_code">Program Code</string>
+    <string name="nav_floor_call_blocking">Floor Call Blocking</string>
+    <string name="nav_display_pattern">Display Pattern</string>
+    <string name="nav_device_id">Device ID</string>
+    <string name="nav_device_id_programmable_parameter">Programmable Parameter</string>
+    <string name="nav_speed_command_selection">Speed Command Selection</string>
+    <string name="nav_level_function">Level Function</string>
+    <string name="nav_error_log">Error Log</string>
+    <string name="nav_io_indicators">IO Indicators</string>
+    <string name="nav_car_call_indicator">Car Call Indicator</string>
+    <string name="nav_main_display">Main Display</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Floor Indicator</item>
+        <!--<item>Profile</item>-->
+        <item>Set Date Time</item>
+        <item>Write Mode Enable</item>
+        <item>Program Code</item>
+        <item>Floor Call Blocking</item>
+        <item>Display Pattern</item>
+        <item>Device ID</item>
+        <item>Programmable Parameter</item>
+        <item>Speed Command Selection</item>
+        <item>Level Function</item>
+        <item>Error Log</item>
+        <item>IO Indicators</item>
+        <item>Car Call Indicator</item>
+        <item>Main Display</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
+
+    <string name="one">First</string>
+    <string name="two">Second</string>
+    <string name="three">Three</string>
+
+    <string name="lbl_permissions_text">Seems you have denied one of the following permissions without which
+        the app can not work properly:</string>
+
+    <integer name="font_style_roboto_medium">1</integer>
+    <integer name="font_style_roboto_regular">2</integer>
+    <integer name="font_style_roboto_light">3</integer>
+
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected_to">Connected to </string>
+    <string name="title_not_connected">Not connected</string>
+    <string name="scanning">Scanning for devices...</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="write_mode_enable">Enable Write Mode</string>
+
+    <string name="discoverable">Make discoverable</string>
+
+    <string-array name="arr_display_pattern">
+        <item>No Change</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>B</item>
+        <item>1B</item>
+        <item>2B</item>
+        <item>3B</item>
+        <item>4B</item>
+        <item>LB</item>
+        <item>UB</item>
+        <item>b</item>
+        <item>1b</item>
+        <item>2b</item>
+        <item>3b</item>
+        <item>4b</item>
+        <item>Lb</item>
+        <item>Ub</item>
+        <item>G</item>
+        <item>LG</item>
+        <item>UG</item>
+        <item>C</item>
+        <item>1C</item>
+        <item>2C</item>
+        <item>3C</item>
+        <item>4L</item>
+        <item>LM</item>
+        <item>0</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="arr_device_id">
+        <item>LPB 0 Floor</item>
+        <item>LPB 1 Floor</item>
+        <item>LPB 2 Floor</item>
+        <item>LPB 3 Floor</item>
+        <item>LPB 4 Floor</item>
+        <item>LPB 5 Floor</item>
+        <item>LPB 6 Floor</item>
+        <item>LPB 7 Floor</item>
+        <item>LPB 8 Floor</item>
+        <item>LPB 9 Floor</item>
+        <item>LPB 10 Floor</item>
+        <item>LPB 11 Floor</item>
+        <item>LPB 12 Floor</item>
+        <item>LPB 13 Floor</item>
+        <item>LPB 14 Floor</item>
+        <item>LPB 15 Floor</item>
+        <item>LPB 16 Floor</item>
+        <item>LPB 17 Floor</item>
+        <item>LPB 18 Floor</item>
+        <item>LPB 19 Floor</item>
+        <item>LPB 20 Floor</item>
+        <item>LPB 21 Floor</item>
+        <item>LPB 22 Floor</item>
+        <item>LPB 23 Floor</item>
+        <item>LPB 24 Floor</item>
+        <item>LPB 25 Floor</item>
+        <item>LPB 26 Floor</item>
+        <item>LPB 27 Floor</item>
+        <item>LPB 28 Floor</item>
+        <item>LPB 29Floor</item>
+        <item>LPB 30 Floor</item>
+        <item>LPB 31 Floor</item>
+        <item>COP - 1</item>
+        <item>COP - 2</item>
+    </string-array>
+
+    <string-array name="arr_deviceid_programable_parameter">
+        <item>Encoder PPR</item>
+        <item>Travel length 1</item>
+        <item>Travel length 2</item>
+        <item>Travel lenght 3</item>
+        <item>Slow speed distance 1</item>
+        <item>Slow speed distance 2</item>
+        <item>Slow speed distance 3</item>
+        <item>Slow speed distance 4</item>
+        <item>Diameter of main pulley</item>
+        <item>Gear box ratio</item>
+        <item>Common UP Slip</item>
+        <item>Common DN Slip</item>
+        <item>R.P.M. Setting 1</item>
+        <item>R.P.M. Setting 2</item>
+        <item>R.P.M. Setting 3</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.64"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvfloor_blocking_FloorNumber"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/tvfloor_blocking_Data"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+
+
+</LinearLayout>

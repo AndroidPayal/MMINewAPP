@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.radioknit.mminewapp">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ProgramCodeActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".bluetooth.DeviceListActivity" />
+        <activity android:name=".activity.DeviceControlActivity" />
+        <activity android:name=".activity.DisplayPatternActivity" />
+        <activity android:name=".activity.DeviceIDActivity" />
+        <activity android:name=".activity.ProgrammablePrarmeterActivity" />
+        <activity android:name=".activity.SpeedSelectionActivity" />
+        <activity android:name=".activity.FloorCallBlockingActivity" />
+        <activity android:name=".activity.LevelFunctionActivity" />
+        <activity android:name=".activity.ViewErrorLogActivity" />
+        <activity android:name=".activity.SetDateTimeActivity" />
+        <activity android:name=".activity.IOIndicatorActivity" />
+        <activity android:name=".activity.CarCallActivity" />
+        <activity android:name=".activity.MainDisplayActivity" />
+        <activity android:name=".activity.WriteModeEnableActivity"></activity>
+    </application>
+
+</manifest>
